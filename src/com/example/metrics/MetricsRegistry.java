@@ -6,13 +6,11 @@ import java.util.Map;
 
 public enum MetricsRegistry {
 
-    INSTANCE;  // The only instance
+    INSTANCE;
 
     private final Map<String, Long> counters = new HashMap<>();
 
-    // Enum constructor (implicitly private)
     MetricsRegistry() {
-        // You can add initialization logic here if needed
     }
 
     
